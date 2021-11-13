@@ -16,11 +16,11 @@ while numero != intento:
         intento = int (input ("Dime un numero del 1 al 99: "))
 
     if intento == numero:
-        print("FELICIDADES CAMPEÓN")   
+        print("FELICIDADES CAMPEÓN")
     
     contador += 1
 
 if contador < 5:
     print ("Has usado ",contador, " intentos" )    
 else:
-    print("Has usado ",contador, " intentos, necesitas mejorar")
+    print ("Has usado ", contador, "intentos, necesitas mejorar")
